@@ -3,7 +3,7 @@ sources:
   - type: git
     url: https://github.com/movableink/webkit.git
     branch: master
-    commit: 3cfcdcf38a520a22a9e86bd4b8ffa17f2ee2e1aa
+    commit: 39085272bfc67856c0225b4b57722489e6463b59
     #x-checker-data:
       #type: git
 buildsystem: cmake-ninja
