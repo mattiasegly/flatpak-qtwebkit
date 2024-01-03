@@ -19,5 +19,7 @@ cleanup-commands:
   - rm -rf /app/{include,lib/{cmake,mkspecs,pkgconfig}}
 #
 modules:
+  - modules/tcl.yml
+  - modules/sqlite.yml
   - modules/woff2.yml
   - modules/qtwebkit.yml
