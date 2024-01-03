@@ -2,7 +2,7 @@ name: qtwebkit
 sources:
   - type: git
     url: https://github.com/movableink/webkit.git
-    branch: master
+    #branch: master
     commit: 39085272bfc67856c0225b4b57722489e6463b59
     #x-checker-data:
       #type: git
