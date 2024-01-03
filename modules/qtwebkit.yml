@@ -13,3 +13,4 @@ config-opts:
   - -DCMAKE_PREFIX_PATH=/app;/usr
   - -DPORT=Qt
   - -DENABLE_INSPECTOR_UI=OFF
+  - -DENABLE_WEB_AUDIO=OFF   #gstreamer build error if ON
