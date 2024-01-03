@@ -15,3 +15,4 @@ config-opts:
   - -DENABLE_INSPECTOR_UI=OFF
   - -DENABLE_VIDEO=OFF   #gstreamer build error if ON
   - -DENABLE_WEB_AUDIO=OFF   #default ON, gstreamer build error
+  - -DENABLE_PRINT_SUPPORT=ON   #default OFF
