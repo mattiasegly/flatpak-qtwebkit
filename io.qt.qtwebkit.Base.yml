@@ -1,4 +1,4 @@
-app-id: io.qt.qtwebkit.BaseApp
+app-id: io.qt.qtwebkit.Base
 branch: development
 runtime: org.kde.Platform
 runtime-version: "5.15-23.08"

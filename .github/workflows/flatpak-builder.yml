@@ -32,5 +32,5 @@ jobs:
       uses: flatpak/flatpak-github-actions/flatpak-builder@v6
       with:
         bundle: qtwebkit.flatpak
-        manifest-path: io.qt.qtwebkit.BaseApp.yml
+        manifest-path: io.qt.qtwebkit.Base.yml
 #        cache: false
