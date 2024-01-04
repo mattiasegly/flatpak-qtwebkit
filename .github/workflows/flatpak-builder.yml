@@ -19,18 +19,18 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       
-    - name: Cache
-      id: cache
-      uses: actions/cache@v3
-      if: always()
-      with:
-        path: .flatpak-builder
-        key: flatpak-build-${{ github.sha }}
-        restore-keys: flatpak-build
+#    - name: Cache
+#      id: cache
+#      uses: actions/cache@v3
+#      if: always()
+#      with:
+#        path: .flatpak-builder
+#        key: flatpak-build-${{ github.sha }}
+#        restore-keys: flatpak-build
         
     - name: Build
       uses: flatpak/flatpak-github-actions/flatpak-builder@v6
       with:
         bundle: qgis.flatpak
         manifest-path: io.qt.qtwebkit.BaseApp.yml
-        cache: false
+#        cache: false
