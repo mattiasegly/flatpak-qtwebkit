@@ -3,10 +3,10 @@
 <BR>This is a test/staging area, so it's very experimental and might not work.
 <BR>
 <BR>Build:
-<BR>clear && flatpak-builder --jobs=3 --ccache --disable-rofiles-fuse --force-clean build-dir io.qt.qtwebkit.BaseApp
+<BR>clear && flatpak-builder --jobs=3 --ccache --disable-rofiles-fuse --force-clean build-dir io.qt.qtwebkit.Base
 <BR>
 <BR>Build & Install:
-<BR>clear && flatpak-builder --user --install --jobs=3 --ccache --disable-rofiles-fuse --force-clean build-dir io.qt.qtwebkit.BaseApp
+<BR>clear && flatpak-builder --user --install --jobs=3 --ccache --disable-rofiles-fuse --force-clean build-dir io.qt.qtwebkit.Base
 <BR>
 <BR>Or download an artifact from https://github.com/mattiasegly/flatpak-qtwebkit/actions/workflows/flatpak-builder.yml
 <BR>Extract .zip archive and install with:
