@@ -6,20 +6,18 @@ sdk: org.kde.Sdk
 #
 separate-locales: false
 #
-cleanup:   #https://github.com/flatpak/flatpak-builder/issues/233
-  - /include
-  - /lib/pkgconfig
-  - /share/cmake
-  - /share/doc
-  - /share/man
-  - /share/pkgconfig
-  - '*.la'
-  - '*.a'
-cleanup-commands:
-  - rm -rf /app/{include,lib/{cmake,mkspecs,pkgconfig}}
+#cleanup:   #https://github.com/flatpak/flatpak-builder/issues/233
+#  - /include
+#  - /lib/pkgconfig
+#  - /share/cmake
+#  - /share/doc
+#  - /share/man
+#  - /share/pkgconfig
+#  - '*.la'
+#  - '*.a'
+#cleanup-commands:
+#  - rm -rf /app/{include,lib/{cmake,mkspecs,pkgconfig}}
 #
 modules:
-  - modules/tcl.yml
-  - modules/sqlite.yml
   - modules/woff2.yml
   - modules/qtwebkit.yml
