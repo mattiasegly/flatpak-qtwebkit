@@ -4,8 +4,6 @@ sources:
     url: https://github.com/google/woff2.git
     branch: master
     commit: 0f4d304faa1c62994536dc73510305c7357da8d4
-    #x-checker-data:
-      #type: git
 buildsystem: cmake-ninja
 builddir: true
 config-opts:

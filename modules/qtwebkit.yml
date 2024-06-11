@@ -4,8 +4,6 @@ sources:
     url: https://github.com/movableink/webkit.git
     branch: plugin-stubs-readded
     commit: a3f87ca34da5117e87fafbfd5d0c225a2d441751
-    #x-checker-data:
-      #type: git
 buildsystem: cmake-ninja
 builddir: true
 config-opts:
